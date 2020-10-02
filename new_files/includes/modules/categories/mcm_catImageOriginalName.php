@@ -14,7 +14,7 @@
    Link zum Thema: https://www.modified-shop.org/forum/index.php?topic=15464.0
    
    catImageOriginalName module by wdp.net 2016
-   Install in admin directoty /includes/modules/categories/
+   Install in admin directory /includes/modules/categories/
    Activate in admin backend   /module/
 
 */
@@ -24,12 +24,12 @@ defined( '_VALID_XTC' ) or die( 'Direct Access to this location is not allowed.'
 use RobinTheHood\ModifiedStdModule\Classes\StdModule;
 require_once DIR_FS_DOCUMENT_ROOT . '/vendor-no-composer/autoload.php';
 
-class mf_imageOriginalName extends StdModule
+class mcm_imageOriginalName extends StdModule
 {
   
     function __construct()
     {
-        $this->init('MODULE_CATEGORIES_MF_IMAGEORIGINALNAME');
+        $this->init('MODULE_CATEGORIES_MCM_IMAGEORIGINALNAME');
     }
         
     //--- BEGIN CUSTOM  CLASS METHODS ---//
