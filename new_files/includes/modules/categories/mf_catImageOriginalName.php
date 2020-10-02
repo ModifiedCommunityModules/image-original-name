@@ -24,7 +24,7 @@ defined( '_VALID_XTC' ) or die( 'Direct Access to this location is not allowed.'
 use RobinTheHood\ModifiedStdModule\Classes\StdModule;
 require_once DIR_FS_DOCUMENT_ROOT . '/vendor-no-composer/autoload.php';
 
-class imageOriginalName extends StdModule
+class mf_imageOriginalName extends StdModule
 {
   
     function __construct()
@@ -34,19 +34,19 @@ class imageOriginalName extends StdModule
         
     //--- BEGIN CUSTOM  CLASS METHODS ---//
 
-    function image_name(string $image_name, int $data_id, string $counter, string $suffix, array $name_arr, $srcID, array $data_arr): string
+    function image_name(string $image_name, string $data_id, string $counter, string $suffix, array $name_arr, bool $srcID, array $data_arr): string
     {
-        // include the seo mask to clean up names - insert hyphens, remove umlauts and lower case etc.
-        include_once (DIR_FS_INC . 'seo_url_href_mask.php');
+         // include the seo mask to clean up names - insert hyphens, remove umlauts and lower case etc.
+         include_once (DIR_FS_INC . 'seo_url_href_mask.php');
 
-        $separator = (((string)$counter > 0) ? '-'.$counter : ''); // first image is clean without -0 on the end of the name
+         $separator = (((string)$counter > 0) ? '-' . $counter : ''); // first image is clean without -0 on the end of the name
 
-        $name= array_shift($name_arr); // gets the original name of the uploaded file
+         $name= array_shift($name_arr); // gets the original name of the uploaded file
 
-        // now glue it all together
-        $image_name = seo_url_href_mask($name).$separator.'.'.$suffix;
+         // now glue it all together
+         $image_name = seo_url_href_mask($name) . $separator . '.' . $suffix;
 
-        //and return the new string
-        return $image_name;
+         //and return the new string
+         return $image_name;
     }
 }
