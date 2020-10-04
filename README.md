@@ -11,3 +11,6 @@ PHP 7.0 or above
 
 ## Contributing
 If you wish more features feel free to contribute. In order to contribute, you just have to fork this repository.
+
+## Guidelines
+https://github.com/ModifiedCommunityModules/guidelines
