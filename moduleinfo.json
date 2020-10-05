@@ -1,6 +1,6 @@
 {
     "name": "Bildnamen beim Upload erhalten",
-    "archiveName": " modifiedcommunitymodules/image-original-name",
+    "archiveName": "modifiedcommunitymodules/image-original-name",
     "sourceDir": "new_files",
     "version": "auto",
 
@@ -13,7 +13,7 @@
 
     "price": "free",
     "category": "promotion/marketing",
-    
+
     "require": {
         "composer/autoload": "^1.0.0",
         "robinthehood/modified-std-module": "^0.2.0"
