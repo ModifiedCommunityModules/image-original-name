@@ -1,6 +1,7 @@
-## Module as class extension for store version 2.x Image names received on upload
+# Module: Keep image names when uploading
+(DE): Modul: Bildnamen beim Upload erhalten
 
-from the modified Forum https://www.modified-shop.org/forum/index.php?topic=15464.msg332688#msg332688
+Source modified Forum: [Modul als Klassenerweiterung für Shopversion 2.x](https://www.modified-shop.org/forum/index.php?topic=15464.msg332688#msg332688)
 
 ## Requirements
 PHP 7.0 or above
