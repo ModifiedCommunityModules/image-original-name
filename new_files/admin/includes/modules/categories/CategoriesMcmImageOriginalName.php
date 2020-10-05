@@ -27,26 +27,25 @@ require_once DIR_FS_DOCUMENT_ROOT . '/vendor-no-composer/autoload.php';
 class CategoriesMcmImageOriginalName extends StdModule
 {
   
-    function __construct()
+    public function __construct()
     {
         $this->init('MODULE_CATEGORIES_MCM_IMAGE_ORIGINAL_NAME');
     }
-        
-    //--- BEGIN CUSTOM  CLASS METHODS ---//
 
-    function image_name(string $image_name, string $data_id, string $counter, string $suffix, array $name_arr, bool $srcID, array $data_arr): string
+    public function image_name(string $imageName, string $dataId, string $counter, string $suffix, array $nameArr, bool $srcId, array $dataArr): string
     {
-         // include the seo mask to clean up names - insert hyphens, remove umlauts and lower case etc.
-         include_once (DIR_FS_INC . 'seo_url_href_mask.php');
+        // include the seo mask to clean up names - insert hyphens, remove umlauts and lower case etc.
+        include_once (DIR_FS_INC . 'seo_url_href_mask.php');
 
-         $separator = (((string)$counter > 0) ? '-' . $counter : ''); // first image is clean without -0 on the end of the name
+        // first image is clean without -0 on the end of the name
+        $separator = (((string)$counter > 0) ? '-' . $counter : '');
 
-         $name= array_shift($name_arr); // gets the original name of the uploaded file
+        // gets the original name of the uploaded file
+        $name = array_shift($nameArr);
 
-         // now glue it all together
-         $image_name = seo_url_href_mask($name) . $separator . '.' . $suffix;
+        // now glue it all together
+        $imageName = seo_url_href_mask($name) . $separator . '.' . $suffix;
 
-         //and return the new string
-         return $image_name;
+        return $imageName;
     }
 }
