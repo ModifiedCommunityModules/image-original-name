@@ -12,6 +12,7 @@
     "website": "https://www.modified-shop.org/forum/index.php?topic=15464.msg332688#msg332688",
 
     "price": "free",
+    "category": "promotion/marketing",
     
     "require": {
         "composer/autoload": "^1.0.0",
