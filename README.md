@@ -11,7 +11,7 @@ PHP 7.0 or above
 - 2016 by wdp.net
 
 ## Contributing
-If you wish more features or you want to make improvements or to fix erros feel free to contribute. In order to contribute, you just have to fork this repository or become a member of the github organisation [ModifiedCommunityModules](https://github.com/ModifiedCommunityModules).
+If you wish more features or you want to make improvements or to fix errors feel free to contribute. In order to contribute, you just have to fork this repository or become a member of the github organisation [ModifiedCommunityModules](https://github.com/ModifiedCommunityModules).
 
 
 ## Support
