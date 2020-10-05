@@ -6,11 +6,19 @@ from the modified Forum https://www.modified-shop.org/forum/index.php?topic=1546
 PHP 7.0 or above
 
 ## Authors
-- Forum-User xt_modding and originally wdp.net 2016
-- transferred to Github and entered in MMLC Gulliver72
+- 2020 by Gulliver72 - transferred to Github and entered in MMLC 
+- 2017 by xt_modding - transferred to modified Forum and further development
+- 2016 by wdp.net
 
 ## Contributing
-If you wish more features feel free to contribute. In order to contribute, you just have to fork this repository.
+If you wish more features or you want to make improvements or to fix erros feel free to contribute. In order to contribute, you just have to fork this repository or become a member of the github organisation [ModifiedCommunityModules](https://github.com/ModifiedCommunityModules).
+
+
+## Support
+For this module, support can be asked in the [modified forum](https://www.modified-shop.org/forum/). However, there is no entitlement to support. Alternatively, a service provider can be commissioned for support (also for a fee).
+
+## License
+Licensed under GNU General Public License. Some rights reserved. See LICENSE, CONTRIBUTORS.md.
 
 ## Guidelines
-https://github.com/ModifiedCommunityModules/guidelines
+Modules published under the github organisation [ModifiedCommunityModules](https://github.com/) follow the guidelines under: https://github.com/ModifiedCommunityModules/guidelines
