@@ -35,10 +35,10 @@ class CategoriesMcmImageOriginalName extends StdModule
     public function image_name(string $imageName, string $dataId, string $counter, string $suffix, array $nameArr, bool $srcId, array $dataArr): string
     {
         // include the seo mask to clean up names - insert hyphens, remove umlauts and lower case etc.
-        include_once (DIR_FS_INC . 'seo_url_href_mask.php');
+        include_once DIR_FS_INC . 'seo_url_href_mask.php';
 
         // first image is clean without -0 on the end of the name
-        $separator = (((string)$counter > 0) ? '-' . $counter : '');
+        $separator = ((string) $counter > 0) ? '-' . $counter : '';
 
         // gets the original name of the uploaded file
         $name = array_shift($nameArr);
