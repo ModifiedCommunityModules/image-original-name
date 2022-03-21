@@ -1,6 +1,6 @@
 <?php
 $moduleType = 'MODULE_CATEGORIES';
-$moduleName = 'MCM_IMAGE_ORIGINAL_NAME';
+$moduleName = 'CATEGORIESMCMIMAGEORIGINALNAME';
 $prefix = $moduleType . '_' . $moduleName  . '_';
 
 define($prefix . 'TITLE', 'Get image name on upload © by <a href="https://www.modified-shop.org/forum/index.php?topic=15464.0" target="_blank" style="color: #b0377e; font-weight: bold;">xt_modding</a>');

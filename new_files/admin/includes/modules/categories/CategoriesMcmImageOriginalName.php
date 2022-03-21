@@ -29,7 +29,7 @@ class CategoriesMcmImageOriginalName extends StdModule
   
     public function __construct()
     {
-        $this->init('MODULE_CATEGORIES_MCM_IMAGE_ORIGINAL_NAME');
+        $this->init('MODULE_CATEGORIES_CATEGORIESMCMIMAGEORIGINALNAME');
     }
 
     public function image_name(string $imageName, string $dataId, string $counter, string $suffix, array $nameArr, bool $srcId, array $dataArr): string
